@@ -1,16 +1,16 @@
-Transformer is NOT RNN, yet we put it in the RNN repo as a demo how it is different to RNN.
+# A basic transformer model
 
-# create the virtual environment
+### create the virtual environment
     $ virtualenv .venv
     $ source .venv/bin/activate
 
-# install dependencies
+### install dependencies
     $ pip install requirement.txt
 
-# install to virtual env in editable mode
+### install to virtual env in editable mode
     $ pip install -e .
 
-# run it
+### run it
     $ cd bin
 
     $ python gen_custom_tokenizer.py  
@@ -23,3 +23,5 @@ Transformer is NOT RNN, yet we put it in the RNN repo as a demo how it is differ
 
     $ python inference.py  
       # translation examples
+
+[tutorial](https://www.tensorflow.org/text/tutorials/transformer)
