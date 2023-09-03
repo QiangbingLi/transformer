@@ -1,0 +1,2 @@
+RESERVED_TOKENS = ["[PAD]", "[UNK]", "[START]", "[END]"]
+MAX_VOCAB_SIZE = 8000
